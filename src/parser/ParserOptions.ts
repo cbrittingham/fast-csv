@@ -15,7 +15,7 @@ export interface ParserOptionsArgs {
     ltrim?: boolean;
     rtrim?: boolean;
     encoding?: string;
-    maxLines?: number;
+    maxRows?: number;
 }
 
 export class ParserOptions {
